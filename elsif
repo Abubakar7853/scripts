@@ -1,0 +1,16 @@
+#!/bin/bash
+echo " Select Number between 1 to 10 "
+read number
+if [ $number -gt 10 ];
+then 
+echo " invalid number "
+elif [ $number -le 4 ];
+then
+echo " your Third "
+elif [ $number -ge 6 ];
+then 
+echo " your second "
+elif [ $number -eq 5 ];
+then 
+echo " win !!! , You won First prize "
+fi

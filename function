@@ -1,0 +1,6 @@
+#!/bin/bash
+function F1 ()
+{
+echo " i love bash "
+}
+F1

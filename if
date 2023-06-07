@@ -1,0 +1,8 @@
+echo " Enter your Number "
+read number
+if [ $number -lt 10 ];
+then
+echo " One digit number "
+else
+echo " More then One digit "
+fi 

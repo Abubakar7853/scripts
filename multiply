@@ -1,0 +1,3 @@
+#!/bin/bash
+((multiply= 20*10))
+echo $multiply
